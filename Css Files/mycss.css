@@ -1,0 +1,170 @@
+h1 {
+
+  display: flex;
+  justify-content: left;
+  padding: 5px;
+  margin-left: 200px;
+  
+}
+
+h3 {
+  padding: 5px;
+  margin-left: 200px;
+}
+p{
+  margin-left: 200px;
+}
+header {
+  margin: 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: tan;
+  border: 7px solid chocolate;
+  font-family: "Josefin Sans", sans-serif;
+}
+nav {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  background-color: rgb(124, 72, 8);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#text{
+  display: block;
+}
+#My Image{
+  display: flex;
+  margin-right: 100px;
+}
+ol {
+  width: 50%;
+  display: flex;
+  padding: 30px;
+  margin-left: 10%;
+  justify-content: space-between;
+}
+button {
+  height: 30%;
+  width: 75px;
+  display: inline-block;
+  align-content: center;
+  justify-content: flex-end;
+  text-align: center;
+  border: 2px solid chocolate;
+  border-radius: 5px;
+  margin: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+div{
+  display: flex;
+  justify-content: center;
+  line-height: 20px;
+  padding: 30px;
+}
+p {
+  display: inline-block;
+  justify-content: flex-start;
+  padding: 10px;
+  height: 100px;
+  width: 40%;
+}
+img {
+  display: inline-block;
+  justify-content: center;
+  align-content: space-around;
+  border: 2px solid coral;
+  border-radius: 5px;
+}
+h4{
+  display: flex;
+  justify-content: center;
+ }
+
+footer{
+  background-color: bisque;
+  padding: 2px;
+}
+div{
+  display: flex;
+  justify-content: center;
+  }
+ #fb i{
+  background-color: bisque;
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 50px;
+}
+ a i{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 70px;
+}
+#tt:hover{
+  background-color: white;
+  transition: 0.5s;
+}
+
+#ig i{
+  background-color: bisque;
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 50px;
+}
+
+a i{
+  display: flex;
+  margin-left: 50px;
+ 
+}
+#uu:hover{
+  background-color: white;
+  transition: 0.5s;
+  color:rgb(231, 80, 105);
+}
+
+#wa i{
+  background-color: bisque;
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 50px;
+}
+
+#vv:hover{
+  background-color: white;
+  transition: 0.5s;
+  color:green;
+}
+
+#tk i{
+  background-color: bisque;
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 50px;
+}
+
+#ww:hover{
+  background-color: white;
+  transition: 0.5s;
+  color:rgb(87, 12, 53);
+}
+#Images{
+  display: inline-block;
+}
+
+@media (max-width: 767) ( {
+  background-color: teal;
+  
+}
+)
+@media (min-width: 700px) and  (max-width: 1000px) (
+  body{
+    background-color: purple;
+  }
+)
+  
